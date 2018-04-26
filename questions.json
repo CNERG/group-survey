@@ -4,7 +4,7 @@
       "title" : "Favorite Day",
       "choices" : ["Mon", "Tues", "Wed", "Thu", "Fri"],
       "required" : "True"
-    }
+    },
 
     { "type": "multipleChoice",
       "title" : "What color are neutrons?",
