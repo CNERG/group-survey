@@ -14,7 +14,8 @@ function addTextItem(form, questionData) {
         .setRequired(questionData.required);  
 }
 
-//forceParam is a dummy parameter whose existence forces the UrlFetch to avoid caching
+// forceParam is a dummy parameter whose existence forces the UrlFetch to avoid caching
+// still not sure this is working properly!
 function gennerateGroupSurvey(forceParam) {
   
   // Get the questions from some source in JSON format
@@ -32,7 +33,6 @@ function gennerateGroupSurvey(forceParam) {
           .setTitle(formTitle);  
       
       for (var i = 0; i < numQuestions; i++) {
-          Logger.log(surveyQuestionsList[i]);
           if (surveyQuestionsList[i].type == "multipleChoice") {
               addMultipleChoice(form, surveyQuestionsList[i])
           } else if (surveyQuestionsList[i].type == "text") {
