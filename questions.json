@@ -1,0 +1,9 @@
+[
+
+    { "type": "multipleChoice",
+      "title" : "Favorite Day",
+      "choices" : ["Mon", "Tues", "Wed", "Thu", "Fri"],
+      "required" : "True"
+    }
+
+]
