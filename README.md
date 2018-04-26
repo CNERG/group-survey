@@ -9,7 +9,7 @@ Usage:
 
 1. Modify the questions in `questions.json` to your liking
 1. Copy `GenerateGroupSurvey.js` into a Google Apps Script code
-1. Run the script in the Google Apps Script interface
+1. Run the script in the [Google Apps Script interface](https://script.google.com)
 1. Use form
 
 (Probably need more documentation on question types.)
