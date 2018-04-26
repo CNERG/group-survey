@@ -2,7 +2,7 @@
 
 This project will generate a Google Form based on a set of questions stored in
 a JSON file.  It's original intent is for generating an anonyous [survey for
-use within a research group[(https://twitter.com/katyhuff/status/988892053353435136).
+use within a research group](https://twitter.com/katyhuff/status/988892053353435136).
 
 Usage:
 
