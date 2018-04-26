@@ -3,13 +3,18 @@
     { "type": "multipleChoice",
       "title" : "Favorite Day",
       "choices" : ["Mon", "Tues", "Wed", "Thu", "Fri"],
-      "required" : "True"
+      "required" : true
     },
 
     { "type": "multipleChoice",
       "title" : "What color are neutrons?",
       "choices" : ["Red", "Green", "Blue"],
-      "required" : "True"
+      "required" : false
+    },
+
+    { "type": "text",
+      "title" : "Best group activtiy",
+      "required" : false
     }
 
 ]
